@@ -1,0 +1,25 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "c1163 status check (delete me)",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://c1163.invalid"
+    }
+  ],
+  "paths": {
+    "/c1163": {
+      "get": {
+        "operationId": "c1163_check",
+        "summary": "c1163 benign status check",
+        "responses": {
+          "200": {
+            "description": "ok"
+          }
+        }
+      }
+    }
+  }
+}
