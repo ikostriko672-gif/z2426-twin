@@ -1,0 +1,4 @@
+---
+title: /fixed
+hidden: false
+---
