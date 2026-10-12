@@ -1,4 +1,4 @@
 ---
-title: z1462 canary B
+title: z1462 canary B2
 ---
-Canary B z1462-after-removal pushed by the F73 attacker AFTER the owner removed them and revoked their API key. Researcher test, will be deleted.
+Canary B2 z1462-after-removal re-pushed by the removed F73 attacker about 5 minutes after offboarding. Researcher test, will be deleted.
