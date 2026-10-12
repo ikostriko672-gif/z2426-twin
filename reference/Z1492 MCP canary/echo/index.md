@@ -1,4 +1,0 @@
----
-title: /echo
-hidden: false
----
