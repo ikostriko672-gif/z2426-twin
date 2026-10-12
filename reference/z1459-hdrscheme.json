@@ -1,0 +1,60 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Z1459 header scheme name canary",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://httpbin.org"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "partnerKey": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-Partner-Key"
+      },
+      "stdKey": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "x-api-key"
+      }
+    }
+  },
+  "paths": {
+    "/status/205": {
+      "get": {
+        "operationId": "z1459PartnerHeaderScheme",
+        "summary": "Z1459 declared apiKey header custom name",
+        "security": [
+          {
+            "partnerKey": []
+          }
+        ],
+        "responses": {
+          "205": {
+            "description": "fixed empty body"
+          }
+        }
+      }
+    },
+    "/status/206": {
+      "get": {
+        "operationId": "z1459XApiKeyScheme",
+        "summary": "Z1459 declared x-api-key header",
+        "security": [
+          {
+            "stdKey": []
+          }
+        ],
+        "responses": {
+          "206": {
+            "description": "fixed empty body"
+          }
+        }
+      }
+    }
+  }
+}
