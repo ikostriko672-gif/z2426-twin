@@ -1,0 +1,18 @@
+openapi: 3.0.3
+info:
+  title: z1700r2
+  version: 1.0.0
+paths:
+  /z1700r2:
+    get:
+      operationId: z1700r2get
+      summary: z1700r2 op
+      description:
+        $ref: '/etc/hostname'
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: './parts/x.yaml'
