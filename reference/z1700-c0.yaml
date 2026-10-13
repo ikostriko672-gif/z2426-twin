@@ -1,0 +1,12 @@
+openapi: 3.0.3
+info:
+  title: z1700c0
+  version: 1.0.0
+paths:
+  /z1700c0:
+    get:
+      operationId: z1700c0get
+      summary: z1700c0 op
+      responses:
+        '200':
+          description: ok

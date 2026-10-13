@@ -1,0 +1,14 @@
+openapi: 3.0.3
+info:
+  title: z1700b2
+  version: 1.0.0
+  description:
+    $ref: '/etc/hostname'
+paths:
+  /z1700b2:
+    get:
+      operationId: z1700b2get
+      summary: z1700b2 op
+      responses:
+        '200':
+          description: ok

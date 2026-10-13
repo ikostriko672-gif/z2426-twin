@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: z1700a
+  version: 1.0.0
+paths:
+  /z1700a:
+    get:
+      operationId: z1700aget
+      summary: z1700a op
+      responses:
+        '200':
+          description: ok
+components:
+  schemas:
+    Z:
+      $ref: './parts/x.yaml'

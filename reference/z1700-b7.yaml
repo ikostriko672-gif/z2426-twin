@@ -1,0 +1,14 @@
+openapi: 3.0.3
+info:
+  title: z1700b7
+  version: 1.0.0
+  description:
+    $ref: '/proc/self/environ'
+paths:
+  /z1700b7:
+    get:
+      operationId: z1700b7get
+      summary: z1700b7 op
+      responses:
+        '200':
+          description: ok
