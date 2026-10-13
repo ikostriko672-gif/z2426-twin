@@ -1,0 +1,21 @@
+openapi: 3.0.3
+info:
+  title: z1700r6
+  version: 1.0.0
+paths:
+  /z1700r6:
+    get:
+      operationId: z1700r6get
+      summary: z1700r6 op
+      description: z1700r6 desc
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: object
+              examples:
+                ex1:
+                  value:
+                    $ref: '/etc/hostname'

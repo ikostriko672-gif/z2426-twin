@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: z1700r5
+  version: 1.0.0
+paths:
+  /z1700r5:
+    get:
+      operationId: z1700r5get
+      summary: z1700r5 op
+      description: z1700r5 desc
+      x-z1700:
+        $ref: '/etc/hostname'
+      responses:
+        '200':
+          description: ok
+x-z1700root:
+  $ref: 'file:///etc/hostname'
