@@ -1,0 +1,27 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Z1907 Private Internal API",
+    "version": "1.0.0",
+    "description": "Z1907PRIV-R3D canary - internal only"
+  },
+  "servers": [
+    {
+      "url": "https://z1907.invalid"
+    }
+  ],
+  "paths": {
+    "/z1907-internal-secret": {
+      "get": {
+        "summary": "Z1907PRIV-R3D secret op",
+        "description": "Z1907SECRET-9WL internal admin endpoint",
+        "operationId": "Z1907PrivOp",
+        "responses": {
+          "200": {
+            "description": "ok"
+          }
+        }
+      }
+    }
+  }
+}
