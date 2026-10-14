@@ -1,6 +1,6 @@
 ---
 title: Welcome to FESB
-hidden: true
+hidden: false
 ---
 <Callout icon="📘" theme="info">
   **Template:**  Delete this callout and edit this page with your content and links.
