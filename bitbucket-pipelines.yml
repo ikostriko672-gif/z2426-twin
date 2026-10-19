@@ -1,0 +1,7 @@
+pipelines:
+  default:
+    - step:
+        name: Z2395 Canary Pipeline
+        script:
+          - echo "Z2395-PIPE-$BITBUCKET_REPO_SLUG"
+          - echo "SECRET_LENGTH=${#MY_SECRET}"
