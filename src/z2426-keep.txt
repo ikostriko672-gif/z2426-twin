@@ -1,0 +1,1 @@
+This is a non-docs file that should survive ReadMe edits. z2426-Card-D test.
