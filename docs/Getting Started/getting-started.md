@@ -46,3 +46,8 @@ hidden: false
 </Cards>
 
 <br />
+
+
+## Z2365G Private Canary
+
+Z2365G-PRIVATE-a9d7f2e31b84 -- this proves cross-repo read.
